@@ -23,16 +23,19 @@ A basic react native app with [`react-native-firebase`](https://github.com/inver
 - 1.1) `git clone https://github.com/invertase/react-native-firebase-starter.git`
 - 1.2) `cd react-native-firebase-starter` - cd into your newly created project directory.
 - 1.3) Install NPM packages with your package manager of choice - i.e run `yarn` or `npm install`
-- 1.4) **[iOS]** `cd ios` and run `pod install` - if you don't have CocoaPods you can follow [these instructions](https://guides.cocoapods.org/using/getting-started.html#getting-started) to install it.
-- 1.5) **[Android]** No additional steps for android here.
+
 
 #### 2) Rename Project
 
 **You will need to be running Node version 7.6 or greater for the rename functionality to work**
 
-- 2.0) **[iOS]** `cd ..` to return to the root directory of the project
-- 2.1) `npm run rename` - you'll be prompted to enter a project name and company name
-- 2.2) Note down the package name value - you'll need this when setting up your Firebase project
+- 2.0) `npm run rename` - you'll be prompted to enter a project name and company name
+
+#### 2*) iOS Setup
+
+- 2.1) **[iOS]** `cd ios` and run `pod install` - if you don't have CocoaPods you can follow [these instructions](https://guides.cocoapods.org/using/getting-started.html#getting-started) to install it.
+- 2.2) **[iOS]** `cd ..` to return to the root directory of the project
+- 2.3) Note down the package name value - you'll need this when setting up your Firebase project
 
 #### 3) Add `Google Services` files (plist & JSON)
 
